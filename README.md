@@ -17,9 +17,10 @@ the /usr/local namespace by default).
 
 Afterwards enter the following command to build and install st (if
 necessary as root):
-
+    git clone https://github.com/anordius/st-anord.git
+    mv st-anord st
+    cd st
     make clean install
-
 
 Running st
 ----------
